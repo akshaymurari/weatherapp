@@ -15,7 +15,7 @@ body {
 			background: url('./569a73ba941d5_thumb900.jpg');
 			background-repeat: no-repeat;
       background-size: cover;
-      @include h-w(10em,100%);
+      @include h-w(100%,100%);
       form {
         h1 {
           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif

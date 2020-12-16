@@ -4,6 +4,14 @@ $blue1: #2f48b5;
 	height: $h;
 	width: $w;
 }
+@mixin p($q,$v){
+    #{$q} : $v;
+}
+*{
+	box-sizing: border-box;
+	@include p("padding",0);
+	@include p("margin",0);
+}
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
